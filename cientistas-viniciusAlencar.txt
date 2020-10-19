@@ -1,0 +1,208 @@
+--------------------------------------------------------------------------------
+CÓDIGOS INTERNOS DE BASE DE CONHECIMENTO
+SOBRE O SISTEMA ESPECIALISTA
+  -- Nome:    Cientistas
+  -- Autores: Vinicius Alencar de Oliveira Mendonça
+  -- Resumo:
+     Vinicius Alencar de Oliveira Mendonça - 6º ADS
+
+SOBRE OS ARQUIVOS
+  Arquivo original: C:\users\vinicius\Área de Trabalho\cientistas-IA\cientistas-viniciusAlencar.bcm
+  O sistema não possui recursos de ajuda.
+--------------------------------------------------------------------------------
+
+Variáveis - CÓDIGO, NOME
+
+1, Sexo
+2, Cientistas
+3, País
+4, Ocupação
+5, Século de Nascimento
+6, Século de Pesquisa
+
+Variáveis - NOME, CÓDIGO
+
+Cientistas, 2
+Ocupação, 4
+País, 3
+Sexo, 1
+Século de Nascimento, 5
+Século de Pesquisa, 6
+
+Valores - CÓDIGO, NOME, CÓDIGO DA VARIÁVEL, POSIÇÃO
+
+1, Ada Lovalace, 2, 1
+2, Alan Turing, 2, 2
+3, Sergio Buarque de Holanda, 2, 3
+4, Michele Perrot, 2, 4
+5, Marie Curie, 2, 5
+6, Michel Faraday, 2, 6
+7, Marcia Barbosa, 2, 7
+8, Albert Einsten, 2, 8
+9, Simone de Beauvoir, 2, 9
+10, Emmanuel Kant, 2, 10
+11, Masculino, 1, 1
+12, Feminino, 1, 2
+13, Ingleterra, 3, 1
+14, Brasil, 3, 2
+15, França, 3, 3
+16, Polonia, 3, 4
+17, Alemanha, 3, 5
+18, Prússia, 3, 6
+19, Informática, 4, 1
+20, Matemática, 4, 2
+21, Engenharia, 4, 3
+22, História, 4, 4
+23, Jornalismo, 4, 5
+24, XVIII, 5, 1
+25, XIX, 5, 2
+26, XX, 5, 3
+27, XVIII, 6, 1
+28, XIX, 6, 2
+29, XX, 6, 3
+30, Política, 4, 6
+31, Docente, 4, 7
+32, Física, 4, 8
+33, Química, 4, 9
+34, Escrita, 4, 10
+35, Filosofia, 4, 11
+36, Biologia, 4, 12
+37, Charles Darwin, 2, 11
+38, Bertha Lutz, 2, 12
+
+Valores - NOME, CÓDIGO, CÓDIGO DA VARIÁVEL, POSIÇÃO
+
+Ada Lovalace, 1, 2, 1
+Alan Turing, 2, 2, 2
+Albert Einsten, 8, 2, 8
+Alemanha, 17, 3, 5
+Bertha Lutz, 38, 2, 12
+Biologia, 36, 4, 12
+Brasil, 14, 3, 2
+Charles Darwin, 37, 2, 11
+Docente, 31, 4, 7
+Emmanuel Kant, 10, 2, 10
+Engenharia, 21, 4, 3
+Escrita, 34, 4, 10
+Feminino, 12, 1, 2
+Filosofia, 35, 4, 11
+França, 15, 3, 3
+Física, 32, 4, 8
+História, 22, 4, 4
+Informática, 19, 4, 1
+Ingleterra, 13, 3, 1
+Jornalismo, 23, 4, 5
+Marcia Barbosa, 7, 2, 7
+Marie Curie, 5, 2, 5
+Masculino, 11, 1, 1
+Matemática, 20, 4, 2
+Michel Faraday, 6, 2, 6
+Michele Perrot, 4, 2, 4
+Polonia, 16, 3, 4
+Política, 30, 4, 6
+Prússia, 18, 3, 6
+Química, 33, 4, 9
+Sergio Buarque de Holanda, 3, 2, 3
+Simone de Beauvoir, 9, 2, 9
+XIX, 28, 6, 2
+XIX, 25, 5, 2
+XVIII, 24, 5, 1
+XVIII, 27, 6, 1
+XX, 26, 5, 3
+XX, 29, 6, 3
+
+Valores - CÓDIGO DA VARIÁVEL, CÓDIGO, NOME, POSIÇÃO
+
+1, 12, Feminino, 2
+1, 11, Masculino, 1
+2, 10, Emmanuel Kant, 10
+2, 8, Albert Einsten, 8
+2, 6, Michel Faraday, 6
+2, 4, Michele Perrot, 4
+2, 38, Bertha Lutz, 12
+2, 2, Alan Turing, 2
+2, 9, Simone de Beauvoir, 9
+2, 7, Marcia Barbosa, 7
+2, 5, Marie Curie, 5
+2, 3, Sergio Buarque de Holanda, 3
+2, 37, Charles Darwin, 11
+2, 1, Ada Lovalace, 1
+3, 18, Prússia, 6
+3, 16, Polonia, 4
+3, 14, Brasil, 2
+3, 17, Alemanha, 5
+3, 15, França, 3
+3, 13, Ingleterra, 1
+4, 20, Matemática, 2
+4, 22, História, 4
+4, 30, Política, 6
+4, 32, Física, 8
+4, 34, Escrita, 10
+4, 36, Biologia, 12
+4, 19, Informática, 1
+4, 21, Engenharia, 3
+4, 23, Jornalismo, 5
+4, 31, Docente, 7
+4, 33, Química, 9
+4, 35, Filosofia, 11
+5, 24, XVIII, 1
+5, 26, XX, 3
+5, 25, XIX, 2
+6, 28, XIX, 2
+6, 27, XVIII, 1
+6, 29, XX, 3
+
+Regras - POSIÇÃO, NOME, CÓDIGO
+
+1, ada-lovelace, 1
+2, alan-turing, 2
+3, sergio-buarque-holanda, 3
+4, Michele Perrot, 4
+5, Marie Curie, 5
+6, Michel Faraday, 6
+7, Marcia Barbosa, 7
+8, Albert Einsten, 8
+9, Simone de Beauvoir, 9
+10, Emmanuel Kant, 10
+11, Charles Darwin, 11
+12, Bertha Lutz, 12
+
+Regras - CÓDIGO, NOME, POSIÇÃO
+
+1, ada-lovelace, 1
+2, alan-turing, 2
+3, sergio-buarque-holanda, 3
+4, Michele Perrot, 4
+5, Marie Curie, 5
+6, Michel Faraday, 6
+7, Marcia Barbosa, 7
+8, Albert Einsten, 8
+9, Simone de Beauvoir, 9
+10, Emmanuel Kant, 10
+11, Charles Darwin, 11
+12, Bertha Lutz, 12
+
+Regras - NOME, CÓDIGO, POSIÇÃO
+
+Charles Darwin, 11, 11
+Emmanuel Kant, 10, 10
+Albert Einsten, 8, 8
+Bertha Lutz, 12, 12
+alan-turing, 2, 2
+ada-lovelace, 1, 1
+Marcia Barbosa, 7, 7
+Marie Curie, 5, 5
+Michel Faraday, 6, 6
+Michele Perrot, 4, 4
+sergio-buarque-holanda, 3, 3
+Simone de Beauvoir, 9, 9
+
+--------------------------------------------------------------------------------
+Gerado com o Expert SINTA versão 1.1b
+(c) 1997 - Universidade Federal do Ceará
+           Laboratório de Inteligência Artificial
+           LIA/UFC
+
+           Utilize esses códigos na programação
+           de front-ends com a Expert SINTA VCL
+--------------------------------------------------------------------------------
