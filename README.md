@@ -1,4 +1,4 @@
-# Projeto Inteligência Artificial
+# Projeto Inteligência Artificial 10/2020
 
 Tivemos como ideia central criar um sistema especialista cuja sub-área é Inteligência Artificial. A partir de perguntas feitas pelo sistema, o usuário interage respondendo-as para descobrir ao fim do questionário qual cientista correlaciona-se com as características atribuídas pelo software. 
 
